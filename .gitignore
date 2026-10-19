@@ -1,0 +1,25 @@
+﻿# Java and Maven
+target/
+*.class
+.mvn/wrapper/maven-wrapper.jar
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# Node.js and Vite
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# IDE and OS files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
